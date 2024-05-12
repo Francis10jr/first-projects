@@ -44,7 +44,7 @@ app.put('/users/:id', (request, response) => {
     return response.json(updatedUser)
 
 })
-app.delete('/users/:id', checkUserId, (request, response) => {
+app.delete('/users/:id', (request, response) => {
     //const { id } = request.params
     //const index = users.findIndex(user => user.id !== id)
     //if(index < 0){
